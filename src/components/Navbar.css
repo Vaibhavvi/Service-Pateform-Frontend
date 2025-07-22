@@ -1,0 +1,26 @@
+/* Navbar Branding Text Animation */
+.technova-text {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold;
+    letter-spacing: 2px; /* Optional: Adds spacing between letters */
+    color: #007bff; /* Change color to suit your theme */
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect on Navbar Brand */
+  .navbar-brand:hover .technova-text {
+    transform: translateX(10px); /* Move text on hover */
+    color: #00bfff; /* Optional: Change color on hover */
+  }
+  
+  /* Mobile Navbar Links Fade-in Effect */
+  .nav-item {
+    font-size: 1.1rem;
+  }
+  
+  /* Navbar Link Hover Effects */
+  .navbar-nav .nav-link:hover {
+    color: #00bfff; /* Change the color on hover */
+  }
+  

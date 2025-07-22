@@ -1,0 +1,106 @@
+/* Signup.css */
+.signup-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .form-label {
+  font-weight: bold;
+}
+
+.form-container .form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-container .btn {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.alert {
+  margin-bottom: 20px;
+}
+
+/* "You Can Easily Register" message styles */
+.easily-register-message {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 0;
+}
+
+/* Image container to maintain equal width and height */
+.image-container {
+  width: 100%;
+  height: 300px; /* Maintain a fixed height for the image */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ensure the image is responsive and fills its container */
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-container {
+    padding: 15px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+
+  .col-md-6 .img-fluid {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+
+  .form-container .btn {
+    font-size: 14px;
+  }
+
+  .image-container {
+    height: 200px; /* Reduce height for smaller screens */
+  }
+}
+
+/* When screen width is smaller than 576px (extra small devices) */
+@media (max-width: 576px) {
+  .form-container {
+    padding: 15px;
+  }
+
+  .col-md-6 .img-fluid {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .signup-container {
+    padding: 10px;
+  }
+
+  .form-container .btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .image-container {
+    height: 150px; /* Further reduce height on extra small screens */
+  }
+}
