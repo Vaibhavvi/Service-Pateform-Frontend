@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
 
 import AboutImage from '../assets/AboutImage.jpeg'; // Replace with your actual image
-import Team1 from '../assets/team1.png';
-import Team2 from '../assets/team2.jpg';
-import Team3 from '../assets/team3.jpeg';
+import Team1 from '../assets/Team1.png';
+import Team2 from '../assets/Team2.jpg';
+import Team3 from '../assets/Team3.jpeg';
 
 const About = () => {
   return (
